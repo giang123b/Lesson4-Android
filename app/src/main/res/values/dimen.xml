@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="paddingLeft">30dp</dimen>
+    <dimen name="paddingRight">30dp</dimen>
+    <dimen name="paddingLedt_edtemail">10dp</dimen>
+
+    <dimen name="text_size_txtlogin">30sp</dimen>
+    <dimen name="text_size_txtregister">20sp</dimen>
+
+    <dimen name="layout_marginTop_txtlogin">50dp</dimen>
+    <dimen name="layout_marginTop_edtemail">50dp</dimen>
+    <dimen name="layout_marginTop_edtpw_btnlogin">20dp</dimen>
+
+</resources>

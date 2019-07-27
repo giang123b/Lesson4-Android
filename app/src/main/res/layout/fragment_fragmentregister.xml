@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragmentregister">
+
+    <TextView
+        android:id="@+id/txtlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="@dimen/text_size_txtlogin"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_marginTop_txtlogin"
+        android:textColor="#ffffff"
+        />
+    <EditText
+        android:id="@+id/edtfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_radius"
+        android:hint="@string/fisrtname"
+        android:padding="@dimen/paddingLedt_edtemail"
+        android:layout_marginTop="@dimen/layout_marginTop_edtemail"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/edtpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_radius"
+        android:hint="@string/lastname"
+        android:padding="@dimen/paddingLedt_edtemail"
+        android:layout_marginTop="@dimen/layout_marginTop_edtpw_btnlogin"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_radius"
+        android:hint="@string/email"
+        android:padding="@dimen/paddingLedt_edtemail"
+        android:layout_marginTop="@dimen/layout_marginTop_edtpw_btnlogin"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/edtpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_radius"
+        android:hint="@string/password"
+        android:padding="@dimen/paddingLedt_edtemail"
+        android:layout_marginTop="@dimen/layout_marginTop_edtpw_btnlogin"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create an account"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="@dimen/layout_marginTop_edtpw_btnlogin"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

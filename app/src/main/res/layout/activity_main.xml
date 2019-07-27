@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/paddingLeft"
+    android:paddingRight="@dimen/paddingRight"
+    android:background="@drawable/login"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.lesson4.fragmentlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="If you have no account!\n Register here"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/text_size_txtregister"
+        android:layout_marginTop="@dimen/layout_marginTop_edtpw_btnlogin"
+        android:gravity="center"
+        android:onClick="register"
+        />
+</LinearLayout>
